@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+:root{
+    --primary-color: #19BC9D;
+    --sub-color: #065a4b;
+}
+
+* {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+Link {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.homePage {
+    min-height: 75vh !important;
+}
